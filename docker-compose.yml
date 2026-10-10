@@ -1,0 +1,10 @@
+
+
+  services:
+
+    kafka:
+      image: apache/kafka:latest
+      container_name: vendor-quote-kafka
+      ports:
+        - "9092:9092"
+  
